@@ -158,6 +158,7 @@
 </tbody>
 </table>
 &nbsp;
+<h2>Docker vs Kubernetes vs OpenShift</h2>
 <table>
 <thead>
 <tr>
