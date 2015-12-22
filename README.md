@@ -3,7 +3,7 @@
 <tbody>
 <tr>
 <td><strong>Container</strong></td>
-<td>A running instance of a Docker <b>image</b>.</td>
+<td>A running instance of a Docker <strong>image</strong>.</td>
 </tr>
 <tr>
 <td><strong>Image</strong></td>
@@ -23,7 +23,7 @@
 </tr>
 <tr>
 <td><strong>Swarm</strong></td>
-<td>Docker Swarm is a <b>clustered</b> set of Docker <b>nodes</b> connected and managed by a Swarm manager running on each <b>node</b>.</td>
+<td>Docker Swarm is a <strong>clustered</strong> set of Docker <strong>nodes</strong> connected and managed by a Swarm manager running on each <strong>node</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -44,22 +44,22 @@
 </tr>
 <tr>
 <td><strong>Commit</strong></td>
-<td>Takes the differences in the <b>container</b> you reference to the last <strong>image</strong>, and creates a new <b>layer</b>. The added <strong>layer</strong> and all previous <strong>layers</strong> constitutes a new <b>image</b>.</td>
-<td>Takes the changes in your <b>index</b> and stores them in your local <b>repository</b> with a message.</td>
+<td>Takes the differences in the <strong>container</strong> you reference to the last <strong>image</strong>, and creates a new <strong>layer</strong>. The added <strong>layer</strong> and all previous <strong>layers</strong> constitutes a new <strong>image</strong>.</td>
+<td>Takes the changes in your <strong>index</strong> and stores them in your local <strong>repository</strong> with a message.</td>
 </tr>
 <tr>
 <td><strong>Diff</strong></td>
-<td>Gives you the files added, updated, or deleted in a <b>layer</b>.</td>
-<td>Gives a line-by-line diff of files between two revisions in the git <b>repository's</b> <b>history</b>.</td>
+<td>Gives you the files added, updated, or deleted in a <strong>layer</strong>.</td>
+<td>Gives a line-by-line diff of files between two revisions in the git <strong>repository's</strong> <strong>history</strong>.</td>
 </tr>
 <tr>
 <td><strong>History</strong></td>
-<td>The <b>layers</b> that make up an <b>image</b> (in order) constitute an image's <b>history</b>.</td>
-<td>The ordered previous <b>revisions</b> in a <strong>repository</strong>.</td>
+<td>The <strong>layers</strong> that make up an <strong>image</strong> (in order) constitute an image's <strong>history</strong>.</td>
+<td>The ordered previous <strong>revisions</strong> in a <strong>repository</strong>.</td>
 </tr>
 <tr>
 <td><strong>Hub</strong></td>
-<td>DockerHub is an <b>index</b> of <b>images</b> and Dockerfiles managed by Docker.inc.</td>
+<td>DockerHub is an <strong>index</strong> of <strong>images</strong> and Dockerfiles managed by Docker.inc.</td>
 <td>GitHub is a popular central point of reference for software projects that use git.</td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@
 </tr>
 <tr>
 <td><strong>Remote</strong></td>
-<td>N/A, though if someone uses this term, they probably mean <b>registry</b></td>
+<td>N/A, though if someone uses this term, they probably mean <strong>registry</strong></td>
 <td>A repository stored in another location, eg on Git<strong>Hub</strong> or bitbucket.org.</td>
 </tr>
 <tr>
