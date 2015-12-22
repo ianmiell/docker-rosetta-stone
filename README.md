@@ -145,7 +145,7 @@
 </tr>
 <tr>
 <td><strong>Image Stream</strong></td>
-<td>x</td>
+<td>A set references to other <strong>images</strong> (and/or image streams). This provides a virtual view of related images, which allow operational control of events when any of the referenced <strong>image</strong> (and/or image streams) are changed. These events might trigger a rebuild or redeployment of a build.</td>
 </tr>
 <tr>
 <td><strong>Route</strong></td>
@@ -153,7 +153,7 @@
 </tr>
 <tr>
 <td><strong>Image Stream Tag</strong></td>
-<td>x</td>
+<td>Image Streams can be tagged in a similar way to Docker <strong>image</strong> tags</td>
 </tr>
 </tbody>
 </table>
