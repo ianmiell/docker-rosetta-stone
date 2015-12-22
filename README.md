@@ -215,7 +215,7 @@
 <td><strong>Service</strong></td>
 <td>Stable <strong>endpoint</strong> that forwards requests to (transient) containers</td>
 <td>Stable <strong>endpoint</strong> that forwards requests to (transient) pods </td>
-<td></td>
+<td>Stable <strong>endpoint</strong> that forwards requests to (transient) pods </td>
 </tr>
 </tbody>
 </table>
