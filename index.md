@@ -112,7 +112,15 @@
 </tr>
 <tr>
 <td><strong>Kubelet</strong></td>
-<td><strong>Container</strong> supervisor. One of these runs on each host, ensuring the correct <strong>pods</strong> are.</td>
+<td>See <strong>Replication Controller</strong></td>
+</tr>
+<tr>
+<td><strong>Replication Controller</strong></td>
+<td><strong>Container</strong> supervisor. One of these runs on each host, ensuring the correct <strong>pods</strong> are running and in the appropriate number.</td>
+</tr>
+<tr>
+<td><strong>Controller Manager</strong></td>
+<td>Orchestrates <strong>replication controllers</strong>.</td>
 </tr>
 <tr>
 <td><strong>Pod</strong></td>
@@ -129,11 +137,7 @@
 <tbody>
 <tr>
 <td><strong>Build Controller</strong></td>
-<td>x</td>
-</tr>
-<tr>
-<td><strong>Controller Manager</strong></td>
-<td>x</td>
+<td>Component that manages the building of Docker <strong>images</strong> ready for deployment</td>
 </tr>
 <tr>
 <td><strong>Deployment Controller</strong></td>
@@ -172,15 +176,15 @@
 </tr>
 <tr>
 <td><strong>Label</strong></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Name value pair applied to an object, eg an image or container.</td>
+<td>Name value pair applied to an object, eg pod or node.</td>
+<td>Name value pair applied to an object, eg TODO</td>
 </tr>
 <tr>
 <td><strong>Master</strong></td>
-<td></td>
-<td></td>
-<td></td>
+<td>The <strong>Swarm Node</strong> acting as the elected master.</td>
+<td>The <strong>node or nodes</strong> that act as the <strong>cluster</strong> master, keeping track of centralised information using etcd nodes.</td>
+<td>The <strong>node or nodes</strong> that act as the <strong>cluster</strong> master, keeping track of centralised information using etcd nodes.</td>
 </tr>
 <tr>
 <td><strong>Minion</strong></td>
@@ -190,20 +194,26 @@
 </tr>
 <tr>
 <td><strong>Namespace</strong></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Kernel facility to allocate an isolated instance of a global resource, eg filesystem or network. Docker is partly a product that orchestrates these isolated components in a consumable way.</td>
+<td>Isolated sets of resources for management purposes.</td>
+<td>Isolated sets of resources for management purposes.</td>
 </tr>
 <tr>
 <td><strong>Node</strong></td>
-<td>A <strong>host</strong> that can run <strong>containers</strong> within a <strong>Swarm</strong> <strong>cluster</strong>.</td>
-<td>A <strong>host</strong> that can run <strong>Pods</strong> within a Kubernetes <strong>cluster</strong>.</td>
-<td>A <strong>host</strong> that can run <strong>Pods</strong> within an OpenShift <strong>cluster</strong>.</td>
+<td>A <strong>host</strong> within a <strong>Swarm</strong> <strong>cluster</strong>.</td>
+<td>A <strong>host</strong> within a Kubernetes <strong>cluster</strong>.</td>
+<td>A <strong>host</strong> within an OpenShift <strong>cluster</strong>.</td>
+</tr>
+<tr>
+<td><strong>Project</strong></td>
+<td>N/A</td>
+<td>N/A</td>
+<td>Extension of Kubernetes' <strong>namespace</strong> concept with the addition of RBAC etc..</td>
 </tr>
 <tr>
 <td><strong>Service</strong></td>
-<td></td>
-<td></td>
+<td>Stable <strong>endpoint</strong> that forwards requests to (transient) containers.</td>
+<td>Stable <strong>endpoint</strong> that forwards requests to (transient) pods. </td>
 <td></td>
 </tr>
 </tbody>
