@@ -155,6 +155,30 @@
 <td><strong>Image Stream Tag</strong></td>
 <td>Image Streams can be tagged in a similar way to Docker <strong>image</strong> tags</td>
 </tr>
+<tr>
+<td><strong>Project</strong></td>
+<td>Extension of Kubernetes' <strong>namespace</strong> concept with the addition of RBAC etc.</td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+<h2>Docker vs Kubernetes vs OpenShift vs Git</h2>
+<table>
+<thead>
+<td><strong>Git</strong></td>
+<td><strong>Docker</strong></td>
+<td><strong>Kubernetes</strong></td>
+<td><strong>OpenShift</strong></td>
+</thead>
+<tbody>
+<tr>
+<td><strong>Namespace</strong></td>
+<td></td>
+<td>A division of a git repository into separate sets of branches, tags and HEAD</td>
+<td>Kernel facility to allocate an isolated instance of a global resource, eg filesystem or network. Docker is partly a product that orchestrates these isolated components in a consumable way</td>
+<td>Isolated sets of resources for management purposes</td>
+<td>Isolated sets of resources for management purposes</td>
+</tr>
 </tbody>
 </table>
 &nbsp;
@@ -194,22 +218,10 @@
 <td>Rarely used, but would correspond to an OpenShift <strong>Node</strong></td>
 </tr>
 <tr>
-<td><strong>Namespace</strong></td>
-<td>Kernel facility to allocate an isolated instance of a global resource, eg filesystem or network. Docker is partly a product that orchestrates these isolated components in a consumable way</td>
-<td>Isolated sets of resources for management purposes</td>
-<td>Isolated sets of resources for management purposes</td>
-</tr>
-<tr>
 <td><strong>Node</strong></td>
 <td>A <strong>host</strong> within a <strong>Swarm</strong> <strong>cluster</strong></td>
 <td>A <strong>host</strong> within a Kubernetes <strong>cluster</strong></td>
 <td>A <strong>host</strong> within an OpenShift <strong>cluster</strong></td>
-</tr>
-<tr>
-<td><strong>Project</strong></td>
-<td>N/A</td>
-<td>N/A</td>
-<td>Extension of Kubernetes' <strong>namespace</strong> concept with the addition of RBAC etc.</td>
 </tr>
 <tr>
 <td><strong>Service</strong></td>
