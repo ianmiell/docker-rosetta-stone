@@ -137,7 +137,7 @@
 <tbody>
 <tr>
 <td><strong>Build Controller</strong></td>
-<td>Component that manages the building of Docker <strong>images</strong> ready for deployment</td>
+<td>Component that manages the building of Docker <strong>images</strong> from source repositories ready for deployment</td>
 </tr>
 <tr>
 <td><strong>Deployment Controller</strong></td>
