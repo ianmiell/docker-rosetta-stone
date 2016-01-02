@@ -173,7 +173,6 @@
 <tbody>
 <tr>
 <td><strong>Namespace</strong></td>
-<td></td>
 <td>A division of a git repository into separate sets of branches, tags and HEAD</td>
 <td>Kernel facility to allocate an isolated instance of a global resource, eg filesystem or network. Docker is partly a product that orchestrates these isolated components in a consumable way</td>
 <td>Isolated sets of resources for management purposes</td>
